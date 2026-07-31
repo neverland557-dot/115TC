@@ -2,13 +2,19 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>115年產學聯盟計畫業者名單查詢工具</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 30px; }
-    input { padding: 8px; width: 250px; }
-    button { padding: 8px 12px; margin-left: 5px; }
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input { padding: 10px; width: 90%; max-width: 400px; }
+    button { padding: 12px 20px; font-size: 16px; margin-top: 10px; }
     #results { margin-top: 20px; }
-    .item { padding: 5px; border-bottom: 1px solid #ccc; }
+    .item { padding: 8px; border-bottom: 1px solid #ccc; }
+
+    @media (max-width: 600px) {
+      body { font-size: 14px; margin: 10px; }
+      input { width: 100%; }
+    }
   </style>
 </head>
 <body>
